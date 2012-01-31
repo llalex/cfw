@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*
+ * 腾翔互创公司网站样式表
+ * 全局
+ *
+ * @project: cfw
+ * @author: 吴烈
+ * @time: 2011-04-06
+ * @orgalization: 腾翔互创
+ * @website: http://www.1stcore.com/
+ * @copyright: 版权所有，保留所有权利。 
+ */
+ 
+ 
+/*
+ * 重置样式
+ *
+ * 作者：吴烈
+ * 时间：2009-08-12
+ * 版本：2.1
+ * 说明：稳定版本
+ */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, 
+dl, dt, dd, ul, ol, li, 
+pre, 
+form, textarea, 
+th, td  { margin: 0; padding: 0; border: 0; }
+body,
+button, input, select, textarea  { font: 12px/1.5em "微软雅黑", tahoma, arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } 
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } 
+small { font-size: 12px; } 
+ul, ol { list-style: none; }
+a { text-decoration: none; outline: none; }
+a:hover { text-decoration: underline; }
+sup { vertical-align: text-top; } 
+sub { vertical-align: text-bottom; }
+legend { color: #000; } 
+fieldset, img { border: 0; } 
+table { border-collapse: collapse; border-spacing: 0; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .clearfix { height:1%; }
+.uclearfix { display:block; }
+/* end clearfix */
+button,
+input.form-submit-button { cursor: pointer; }
+
+/**
+ * 页面公共部分
+ *
+ * 作者：吴烈
+ * 时间：2010-09-14
+ * 版本：0.1
+ * 说明：为短名称设计
+ */
+.h,
+ins { display: none;}
+.c { clear: both; }
+.l { float: left; _display:inline; }
+.r { float: right; _display:inline;}
+a { text-decoration: none; color: #333; outline: 0;}
+a:hover { text-decoration: underline; }
+.reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter: Alpha(Opacity=0); }
+.atext { color: #95b80f; } /*a text style*/
+.ib { display: inline-block; _zoom: 1; _display: inline; }
+.radius { -moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px; }
+
